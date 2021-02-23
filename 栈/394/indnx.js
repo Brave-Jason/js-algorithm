@@ -1,6 +1,6 @@
 var decodeString = function (s) {
-    let strArr = []; // 保存需要 repeat 的字符串
-    let multiple = ''; // 乘以的倍数
+    let strArr = []; 
+    let multiple = '';
 
     for (let i = 0, len = s.length; i < len; i++) {
         let item = s[i];
