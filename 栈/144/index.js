@@ -8,7 +8,7 @@ var preorderTraversal = function(root) {
             root = root.left;
         }
         root = stack.pop();
-        root = root.right;
+        root = root.right;  
     }
     return res;
 };
